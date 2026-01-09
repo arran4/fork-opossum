@@ -1544,6 +1544,7 @@ func NewBrowser(_dui *duit.DUI, initUrl string) (b *Browser) {
 			Transport: tr,
 		},
 		dui:      _dui,
+		fs:       fs.New(),
 		LocCh:    make(chan string, 10),
 		StatusCh: make(chan string, 10),
 	}

@@ -2,9 +2,7 @@ module github.com/psilva261/mycel
 
 go 1.23.0
 
-replace 9fans.net/go v0.0.0-00010101000000-000000000000 => github.com/psilva261/go v0.0.0-20210805155101-6b9925e0d807
-
-replace 9fans.net/go v0.0.2 => github.com/psilva261/go v0.0.0-20210805155101-6b9925e0d807
+replace 9fans.net/go => github.com/psilva261/go v0.0.0-20210805155101-6b9925e0d807
 
 replace github.com/mjl-/duit v0.0.0-20200330125617-580cb0b2843f => github.com/psilva261/duit v0.0.0-20210802155600-7e8fedefa7ba
 
@@ -29,11 +27,7 @@ require (
 
 require (
 	github.com/Plan9-Archive/libauth v0.0.0-20180917063427-d1ca9e94969d // indirect
-	github.com/dlclark/regexp2 v1.7.0 // indirect
 	github.com/emersion/go-sasl v0.0.0-20211008083017-0b9dcfb154ac // indirect
 	github.com/fhs/mux9p v0.3.1 // indirect
-	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
-	github.com/psilva261/sparkle v0.0.0-20220717092738-fab67056f0bd // indirect
-	github.com/psilva261/sparklefs v0.0.0-20240602162004-7826ce63282f // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

@@ -4,10 +4,6 @@ builds:
     id: "mycel"
     binary: "mycel"
     main: ./cmd/mycel
-  -
-    id: "sparklefs"
-    binary: "sparklefs"
-    main: github.com/psilva261/sparklefs/cmd/sparklefs
 archives:
   -
     format_overrides:

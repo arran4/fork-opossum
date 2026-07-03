@@ -27,9 +27,6 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-      - name: sparklefs
-        run: |
-          go install github.com/psilva261/sparklefs/cmd/sparklefs@latest
       - name: Test
         run: go test ./...
       - name: Run GoReleaser

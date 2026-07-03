@@ -31,5 +31,10 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+      - name: sparklefs
+        run: |
+          git clone https://github.com/psilva261/sparklefs.git /tmp/sparklefs
+          cd /tmp/sparklefs
+          go build -o /usr/local/bin/sparklefs ./cmd/sparklefs
       - name: Test
         run: go test ./...

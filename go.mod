@@ -15,13 +15,13 @@ exclude github.com/hanwen/go-fuse/v2 v2.0.3
 exclude github.com/hanwen/go-fuse/v2 v2.1.0
 
 require (
-	9fans.net/go v0.0.2
+	9fans.net/go v0.0.4
 	github.com/andybalholm/cascadia v1.3.1
 	github.com/knusbaum/go9p v1.18.0
 	github.com/mjl-/duit v0.0.0-20200330125617-580cb0b2843f
 	github.com/srwiley/oksvg v0.0.0-20220731023508-a61f04f16b76
 	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef
-	github.com/tdewolff/parse/v2 v2.5.26
+	github.com/tdewolff/parse/v2 v2.6.1
 	golang.org/x/image v0.25.0
 	golang.org/x/net v0.37.0
 	golang.org/x/text v0.23.0
@@ -29,7 +29,11 @@ require (
 
 require (
 	github.com/Plan9-Archive/libauth v0.0.0-20180917063427-d1ca9e94969d // indirect
-	github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21 // indirect
+	github.com/dlclark/regexp2 v1.7.0 // indirect
+	github.com/emersion/go-sasl v0.0.0-20211008083017-0b9dcfb154ac // indirect
 	github.com/fhs/mux9p v0.3.1 // indirect
+	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
+	github.com/psilva261/sparkle v0.0.0-20220717092738-fab67056f0bd // indirect
+	github.com/psilva261/sparklefs v0.0.0-20240602162004-7826ce63282f // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

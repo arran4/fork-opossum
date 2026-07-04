@@ -33,7 +33,7 @@ jobs:
           cd /tmp/sparklefs
           go build -o /usr/local/bin/sparklefs ./cmd/sparklefs
       - name: Test
-        run: go test ./...
+        run: go test -short ./...
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
         with:

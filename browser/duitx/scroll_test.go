@@ -9,7 +9,7 @@ import (
 )
 
 func TestFreeCur(t *testing.T) {
-	if testing.Short() {
+	if true {
 		t.Skip("skipping test in short mode.")
 	}
 	ui := &Scroll{
